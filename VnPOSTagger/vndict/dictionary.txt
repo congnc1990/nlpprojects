@@ -1,0 +1,247 @@
+<SDT2_P>: {@DT_TT+}
+
+/words/n.1.words: [n] (SDT1- & {SDT1+ or DT_ĐT+}) or ((({TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {{MA+} & SDT5+} & {SDT6+}) or SHA+) & {VTd+} & {CC0d- & CCTd+} & {SS_DT- or DT_LA+ or VPd- or CCPd-} & {GT_DT- or ĐT_DT- or @DT_TT+ or DT_THI+ or VPd- or CCPd-})
+
+/words/n.2.words: [n] ({TDT2-} & SDT1- & {SDT1+ or DT_ĐT+}) or ((({TDT3-} & {ĐV-} & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+}) or SHA+ or ({VTd+} & {CC0d- & CCTd+} & {SHA+})) & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (SS_DT- or DT_LA+ or VPd- or CCPd-)} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or @DT_TT+ or DT_THI+ or DT_LA+ or LA_DT- or VPd- or CCPd-)})
+
+/words/n.loc.words|/words/name.loc.words: [n] (SDT1- & {SDT1+}) or ({TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {{MA+} & SDT5+} & {SDT6+} & {VTd+} & {CC0d- & CCTd+} & {SS_DT- or DT_LA+ or VPd- or CCPd-} & {NHAT_DTv- or GT_DT- or ĐT_GTv- or GT_ĐTv+ or GT_TTv+ or ĐT_DT- or DT_TTv- or DT_THI+ or VPd- or CCPd-} & {@DT_TT+})
+
+/words/n.time.words: [n] (SDT1- & {SDT1+}) or ((({ĐV-} & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {{MA+} & SDT5+} & {SDT6+}) or SHA+) & {VTd+ or (CC0d- & CCTd+)} & {SS_DT- or DT_LA+ or VPd- or CCPd-} & {({PH+} & {TT_TTt+} & (DT_TTt- or ĐT_GTt- or GT_ĐTt+ or GT_TTt+)) or GT_DT- or @DT_TT+ or DT_THI+ or VPd- or CCPd-})
+
+/words/name.words: (SDT1- & {SDT1+} & {VTd+}) or ({SDT1+} & {@SDT2+} & {SDT4+} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (SS_DT- or DT_LA+ or VPd- or CCPd-)} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or @DT_TT+ or DT_THI+ or DT_LA+ or VPd- or CCPd-)})
+
+# pronoun
+/words/p.words: [p] (SHA- & {SDT6+}) or ({TDT3-} & {TDT2p-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (SS_DT- or DT_LA+ or VPd- or CCPd-)} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or DT_TT+ or DT_THI+ or DT_LA+ or LA_DT- or VPd- or CCPd-)})
+
+# TODO: Danh từ cụ thể nhưng được giới hạn lại để tránh nhầm lẫn nhầm lẫn với từ đồng âm có vai trò đại từ
+# tôi, tớ: người phục vụ, dưới quyền
+# cậu|em
+# tôi|tớ: [n] (SDT1- & {SDT1+}) or ((({TDT3-} & {ĐV-} & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+}) or SHA+) & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (SS_DT- or DT_LA+)} & {{{MA+} & SDT5+} & (DT_ĐT+ or DT_THI+ or DT_LA+ or VPd- or CCPd-)})
+
+# danh từ cụ thể được giới hạn
+anh|chị|chàng: [n] (TDT3- or ĐV-) & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+} & {{{MA+} & SDT5+} & {VTd+} & {CC0d- & CCTd+} & (SS_DT- or DT_LA+)} & {{{MA+} & SDT5+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or DT_THI+ or DT_LA+ or LA_DT- or VPd- or CCPd-)}
+
+khoảng|chừng: TST+
+
+# động từ cầu khiến (?)
+/words/v.3.words: [v] ((({TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or TT_ĐT- or ({TT_ĐT-} & TĐT5-)) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_XONG+} & {CL+} & {ĐT_LT+ or ĐT_SS+} & {THT- or THS+} & {EV+} & {SDT5- or CL- or @GT_ĐT-} & {CO-} & {CHỨ+}) or ({DT_ĐT-} & BI-)
+
+,|-|và|vả chăng|vả lại: (VTd- & VPd+) or (VTt- & VPt+) or (VTg- & VPg+) or (VTi- & VPi+) or (VTl- & VPl+)
+
+càng|cả|vừa: CC0+
+thì: CC1+
+càng|lẫn|vừa|cả|và: {CC1-} & ((CCTd- & CCPd+) or (CCTt- & CCPt+) or (CCTg- & CCPg+) or (CCTi- & CCPi+))
+
+một cách: ĐT_TT- & TT+
+
+lắm|quá|nữa: STT- or SĐT-
+
+thường|hay|luôn: TĐT1+ or TTT1+ or TST1+
+
+tuy|dù|mặc dù|bởi vì|sở dĩ|vì: (GT_DT+ or CL+) & {PH+} & (EV- or (CO+ or QHT+))
+
+/words/prep.2.words: [prep] TĐT4+ or TTT4+ or TST4+
+
+rằng: R- & CL+
+
+/words/v.1.words: [v] SỰ- or ((ĐI- or CÓ- or ((({BI-} & {TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or @GT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {VTg+} & {CC0g- & CCTg+} & {LA_ĐT- or DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT-})) & {CHỨ+} & {ĐT_XONG+} & {@ĐT_TT+} & {@ĐT_GT+} & (({ĐT_LT+} & {THT- or THS+} & {EV+} & {@GT_ĐT-} & {SDT5- or CL-}) or CO- or VPg- or CCPg-) & {@XH+ or ĐT_LA+}) or ({DT_ĐT-} & BI-)
+
+/words/v.2.words: [v] SỰ- or ((ĐI- or CÓ- or ((({BI-} & {TĐT1-} & {TĐT2_1-} & {TĐT3-} & {TĐT4-}) or @TT_ĐT- or @GT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {VTg+} & {CC0g- & {@ĐT_DT+} & CCTg+} & {LA_ĐT- or DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT- or BI-})) & {@ĐT_DT+} & {CHỨ+} & {ĐT_XONG+} & {@ĐT_TT+} & {@ĐT_GT+} & {@ĐT_DT+} & {@ĐT_TT+} & (({ĐT_LT+} & {THT- or THS+} & {EV+} & {@GT_ĐT-} & {SDT5- or CL-}) or CO- or VPg- or CCPg-) & {@XH+ or ĐT_LA+}) or ({DT_ĐT-} & BI-)
+
+đi: [v] ĐI+ & ((CÓ- or (({BI-} & {TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or @GT_ĐT- or ({@TT_ĐT-} & TĐT5-))) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & {CHỨ+} & {VTg+} & {CC0g- & CCTg+} & (({ĐT_XONG+} & {ĐT_TT+} & {ĐT_GT+} & {ĐT_LT+} & {THT- or THS+} & {EV+} & {@GT_ĐT-} & {SDT5- or CL-}) or CO- or VPg- or CCPg-)) & {@XH+}
+
+/words/adj.words: [a] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & {VTt+} & {CC0- & CCTt+} & (VPt- or CCPt- or ({DT_TT- or SDT2- or TT- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {LA_TT-} & {EV+} & {CL-} & {CO-} & {@XH+})))
+
+/words/adv.words: [a] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & (VPt- or CCPt- or ({CC0- & CCTt+} & {ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {CO-} & {@XH+})))
+
+rồi : (({TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & {CC0- & CCTt+} & {ĐT_TT-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {EV+} & {CL-} & {CO-}
+
+mới|thì: (DT_THI- & (THI_TT+ or THI_ĐT+) & {CL-} & {EV+}) or (CL- & CL+)
+
+từ|bởi|cùng|khỏi|bàn thảo|bày vẽ|chồm|chuyển hoá|cuốc|cuốn vó|dao động|dụng công|đổ|đút nút|kế tiếp|lần|lấn sân|li tán|lưu niệm|ngoác|nói thách|nựng nịu|phóng thanh|rập|thách cưới|trùng hợp|uỵch|xa lánh: GT_DT+ & (TT_GT- or ĐT_GT- or ({PH+} & CL+))
+
+cái : TDT3+
+
+/words/unit-vietnamese.words: ĐV+ & {SDT1+}
+/words/unit-standard.words: ĐV+ & {SDT1+}
+
+bằng|về: (SDT3- or ĐT_GT- or TT_GT-) & GT_DT+
+
+dù: CL+ & {PH+} & (EV- or (CO+ or QHT+))
+
+sự: [n] SỰ+ & ((SDT1- & {SDT1+}) or ({TDT3-} & {ĐV-} & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+} & {{{MA+} & SDT5+} & (SS_DT- or DT_LA+)} & {{{MA+} & SDT5+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or DT_THI+ or DT_LA+ or LA_DT-)}))
+
+nhiều|ít|tân: [a] (({TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & (({TT_TT+} & {DT_TT- or SDT2- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+} & {STT+ or TT_SS+} & {THT- or THS+} & ({EV+} & {CL-} & {CO-})) or ST_DT-)
+
+xong: ĐT_XONG-
+
+của: SDT4- & GT_DT+
+
+nhất: TT_SS- & {NHAT_DT+}
+
+không bao giờ|đâu phải|đâu có|không có|không phải|không|chẳng|chưa|chưa từng|bất tất|chả|chăng|chẳng thể|chửa|cóc|dễ thường|đâu|đếch|đếch phải|đố|đừng|hà cớ|hà tất|không dưng|không lẽ|không thể: {CHỨ2-} & (TĐT2_1+ or TTT2_1+ or TST2_1+ or (VTd- & VPd+) or (VTt- & VPt+) or (VTg- & VPg+) or (VTi- & VPi+) or (VTl- & VPl+))
+
+nghĩa là|tức là|là: [v] (({TĐT1-} & {TĐT2_1-} & {TĐT3-} & {TĐT4-}) or TĐT5- or @TT_ĐT-) & {ĐT_LA- or DT_LA- or THI_ĐT- or VPl-} &  {LA_ĐT+ or LA_DT+ or LA_TT+ or ĐT_TT+} & {VTl+} & {@XH+}
+
+để: LT_ĐT+ & (TT_GT- or ĐT_GT- or SDT4- or ({PH+} & CL+))
+
+phải|dám|nỡ|nên|có thể|không thể|định: (({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & ĐT_ĐTi+ & {ĐT_LT+ or ĐT_SS+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})
+
+/words/prep.1.words: [prep] GT_DT+ & {VTi+ or (CC0- & CCTi+)} & (TT_GT- or ĐT_GT- or SDT4- or ({PH+} & CL+) or VPi- or CCPi-)
+
+mới|dù vậy|vậy mà|mà|thế mà|tuy nhiên|nhưng|là vì|là do|nhưng mà|nên|thì|cho nên|nhờ đó: CL+ & (EV- or QHT-)
+
+muốn|cần|thích|sợ|mong|mong chờ|tiếc|hối tiếc|sợ|lo lắng|nhớ|mơ|ước|quên|kiên nhẫn|giận: [v]((({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_DT+ or ĐT_ĐT+ or ĐT_TT+} & {SĐT+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-)
+
+hơn|kém: {TT_SS-} & SS_DT+
+
+rồi|liền|bèn|lại|đành|duy|hết|nhất loạt|nốt|ra|rốt cuộc|sạch:  ĐT_LT- & LT_ĐT+
+
+đừng|chớ: TĐT5+ or TTT5+
+
+bị: (({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {TĐT3-} & {TĐT4-}) or TĐT5-) & {DT_ĐT- or SDT5- or THI_ĐT- or LT_ĐT- or ĐT_ĐT-} & BI+ & {ĐT_LT+} & ({THT-} or {THS+} or ({EV+} & {CL-} & {CO-}))
+
+chúng|tụi|bọn|các: TDT2p+
+
+những|các|mọi: TDT2+
+
+# TDT2m = các từ chỉ số lượng nhiều nhưng k phải tất cả (m = một số). Đôi khi các từ này khi dịch sang tiếng Anh cần thêm từ "of" ở đằng sau
+mỗi|bao|bầu|cơ man|dăm|dăm ba|dăm bảy|đa số|đôi|đôi chút|đôi mươi|đống|hàng loạt|khối|lô|lô lốc|lũ lĩ|lưng|mấy|một chút|một đôi|một ít|một số|một tẹo|một tí|một vài|mớ|muôn|muôn ngàn|muôn nghìn|muôn trùng|muôn vàn|mươi|năm ba|năm bảy|ngần|nghìn|nửa|nhúm|ôm|phân nửa|phần đông|phần lớn|nhiều|phần nhiều|số ít|tá|thiểu số|tổng lượng|trăm|trăm nghìn|vài|vạn|xí|xốc: TDT2m+
+
+NUMBERS|không|một|hai|ba|bốn|năm|sáu|bảy|bẩy|tám|chín|mười|trăm|nghìn|ngàn|triệu|tỉ|tỷ|nhất|nhì|nhị|tam|tứ|ngũ|lục|thất|bát|cửu|thập|bách|thiên|vạn|muôn|tư|băm|hăm|mốt|lăm|linh|mươi|vài|phần lớn: ST_ST- or ((({@TST2_1- or @TST2_2-} & {{TST4-} & @TST3-} & {@TST4-}) & {@TST-}) & {DT_ĐT- or ST_DT+} & {ST_ST+})
+
+được: ((({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {TĐT3-} & {TĐT4-}) or TĐT5-) & {DT_ĐT- or SDT5- or THI_ĐT- or LT_ĐT- or ĐT_ĐT-} & BI+ & {ĐT_LT+} & ({THT-} or {THS+} or ({EV+} & {CL-} & {CO-}))) or ĐT_XONG-
+
+khi nào|bao giờ: (THT+ or THS-) & {R-}
+
+/words/c.1.words: THT+ & {R-}
+
+ra|vào|lên|xuống|theo|sang|biếu|hiến|hiến dâng|hoàn|tặng|tặng thưởng|thưởng|trả|trao|trao gửi|trao tặng|trợ cấp|trợ vốn: (GT_DT+ & (TT_GT- or ĐT_GT- or ({PH+} & CL+))) or (((({TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or {@TT_ĐT-} or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_XONG+} & {ĐT_DT+} & {ĐT_TT+} & {ĐT_GT+} & {ĐT_LT+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-))
+
+/words/adj.2.words: [a] TĐT2_2+ or TTT2_2+ or TST2_2+
+
+chuyện: (R- or GT_DT-) & (CL+ or DT_DT+)
+
+từng: TDT2+ or TĐT3q+ or TTT3q+ or TTT2_1+ or TST2_1+
+
+toàn thể|tất thảy|tất cả|toàn bộ|bất kỳ: TDT1+
+
+mà: (ĐT_LT- & LT_ĐT+) or MA-
+
+chứ|chớ|mà: CHỨ- or CHỨ2+
+
+ai: {ĐT_DT- or SS_DT- or GT_DT- or DT_LA+ or DT_ĐT+ or DT_TT+ or DT_THI+} & {R-}
+
+sau đó|ngày nay|vì thế: CL+ & {ĐT_GT- or EV-}
+
+ta|ấy|đấy|kia|này: GT_DT- or SDT6-
+
+;|,: PH- or (EV- & CL+)
+
+thế: GT_DT- or SDT6- or DT_LA+ or ĐT_DT-
+
+ở đâu|thế nào|như thế nào|phải không: THS- & {R-}
+
+/words/v.4.words: [v] ((({TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_XONG+} & {@ĐT_TT+} & {@ĐT_GT+} & {ĐT_DT+ or R+ or CL+} & {ĐT_LT+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-)
+
+bắt đầu|tiếp tục|thôi|dừng|kết thúc|dừng: [v] ((({TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_XONG+} & {ĐT_DT+ or @ĐT_ĐT+} & {ĐT_TT+} & {ĐT_GT+} & {ĐT_LT+ or ĐT_SS+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-)
+
+lẽ ra|có lẽ: CL+ or (DT_GT- & (GT_ĐT+ or GT_TT+))
+
+# quá khứ
+đã: TĐT3q+ or TTT3q+ or TST3q+
+
+# hiện tại tiếp diễn
+đang|đương: TĐT3d+ or TTT3d+ or TST3d+
+
+# hiện tại hoàn thành
+vừa|mới: TĐT3h+ or TTT3h+ or TST3h+
+
+# tương lai
+sẽ|sắp|sắp sửa: TĐT3l+ or TTT3l+ or TST3l+
+
+/words/xưng-hô-cuối.txt: XH-
+
+"(" : UNKNOWN-
+
+")" : UNKNOWN-
+
+"*" : UNKNOWN-
+
+":" : UNKNOWN-
+
+"." : UNKNOWN-
+
+"..." : UNKNOWN-
+
+"?" : UNKNOWN-
+
+"“" : UNKNOWN-
+
+"”" : UNKNOWN-
+
+""" : UNKNOWN-
+
+";" : UNKNOWN-
+
+ngoài ra : UNKNOWN-
+
+thay vì: UNKNOWN-
+
+đến nỗi: UNKNOWN-
+
+mà còn: UNKNOWN-
+
+DATETIME : UNKNOWN-
+
+thì ra : UNKNOWN-
+
+# tiền tệ
+/words/currency.words : UNKNOWN-
+
+hà hà : UNKNOWN-
+
+vô hình chung: UNKNOWN-
+
+có khi|dường|dường như|hình như : UNKNOWN-
+
+vị chi : UNKNOWN-
+
+thế này : UNKNOWN-
+
+thôi thì|vậy thì : UNKNOWN-
+
+/words/proverb.words: UNKNOWN-
+
+chẳng lẽ: UNKNOWN-
+
+mặt khác|ngược lại: UNKNOWN-
+
+thật ra : UNKNOWN-
+
+thì phải : UNKNOWN-
+
+chẳng hạn : UNKNOWN-
+
+sau khi|khi|trước đây|vừa qua|mới đây|vừa rồi: CL+ & {PH+} & (EV- or CO+)
+
+thực ra|may mà : UNKNOWN-
+
+có: [v] ((({BI-} & {TĐT1-} & {TĐT2_1-} & {TĐT3-} & {TĐT4-}) or TT_ĐT- or ({TT_ĐT-} & TĐT5-)) & {DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT- or BI-} & {@GT_ĐT-}) & CÓ+ & CK+
+
+không|chứ: CK-
+
+#-----------------------------------------------------------------------------
+# các cụm cố định
+#-----------------------------------------------------------------------------
+
+# rất (chi) là
+rất: {RẤT_CHI+} & RẤT_LÀ+ & TTT2_2+
+chi: RẤT_CHI-
+là: RẤT_LÀ-
+
+# không những ... mà còn
+chẳng|không: KHÔNG_NHỮNG+ & CC0+
+chỉ|những: KHÔNG_NHỮNG-
+mà: @MÀ_CÒN+ & ((CCTd- & CCPd+) or (CCTt- & CCPt+) or (CCTg- & CCPg+) or (CCTi- & CCPi+))
+lại|còn: MÀ_CÒN-
