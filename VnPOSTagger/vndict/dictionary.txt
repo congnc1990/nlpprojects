@@ -38,9 +38,9 @@ lắm|quá|nữa: STT- or SĐT-
 
 thường|hay|luôn: TĐT1+ or TTT1+ or TST1+
 
-tuy|dù|mặc dù|bởi vì|sở dĩ|vì: (GT_DT+ or CL+) & {PH+} & (EV- or (CO+ or QHT+))
+tuy|dù|mặc dù|bởi vì|sở dĩ|vì: [C] (GT_DT+ or CL+) & {PH+} & (EV- or (CO+ or QHT+))
 
-/words/prep.2.words: [prep] TĐT4+ or TTT4+ or TST4+
+/words/prep.2.words: [adv] TĐT4+ or TTT4+ or TST4+
 
 rằng: R- & CL+
 
@@ -50,9 +50,9 @@ rằng: R- & CL+
 
 đi: [v] ĐI+ & ((CÓ- or (({BI-} & {TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or @GT_ĐT- or ({@TT_ĐT-} & TĐT5-))) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & {CHỨ+} & {VTg+} & {CC0g- & CCTg+} & (({ĐT_XONG+} & {ĐT_TT+} & {ĐT_GT+} & {ĐT_LT+} & {THT- or THS+} & {EV+} & {@GT_ĐT-} & {SDT5- or CL-}) or CO- or VPg- or CCPg-)) & {@XH+}
 
-/words/adj.words: [a] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & {VTt+} & {CC0- & CCTt+} & (VPt- or CCPt- or ({DT_TT- or SDT2- or TT- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {LA_TT-} & {EV+} & {CL-} & {CO-} & {@XH+})))
+/words/adj.words: [adj] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & {VTt+} & {CC0- & CCTt+} & (VPt- or CCPt- or ({DT_TT- or SDT2- or TT- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {LA_TT-} & {EV+} & {CL-} & {CO-} & {@XH+})))
 
-/words/adv.words: [a] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & (VPt- or CCPt- or ({CC0- & CCTt+} & {ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {CO-} & {@XH+})))
+/words/adv.words: [adv] SỰ- or ((({BI-} & {TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & (VPt- or CCPt- or ({CC0- & CCTt+} & {ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {THT- or THS+} & {CO-} & {@XH+})))
 
 rồi : (({TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & {TT_TT+} & {CC0- & CCTt+} & {ĐT_TT-} & {TT_ĐT+ or TT_GT+ or TT_LT+} & {STT+ or TT_SS+} & {EV+} & {CL-} & {CO-}
 
@@ -62,24 +62,24 @@ từ|bởi|cùng|khỏi|bàn thảo|bày vẽ|chồm|chuyển hoá|cuốc|cuốn
 
 cái : TDT3+
 
-/words/unit-vietnamese.words: ĐV+ & {SDT1+}
+/words/unit-vietnamese.words: [nDV] ĐV+ & {SDT1+}
 /words/unit-standard.words: ĐV+ & {SDT1+}
 
 bằng|về: (SDT3- or ĐT_GT- or TT_GT-) & GT_DT+
 
-dù: CL+ & {PH+} & (EV- or (CO+ or QHT+))
+dù: [C] CL+ & {PH+} & (EV- or (CO+ or QHT+))
 
 sự: [n] SỰ+ & ((SDT1- & {SDT1+}) or ({TDT3-} & {ĐV-} & {TDT2- or ST_DT-} & {TDT1-} & {SDT1+} & <SDT2_P> & {SDT3+} & {SDT4+} & {SDT6+} & {{{MA+} & SDT5+} & (SS_DT- or DT_LA+)} & {{{MA+} & SDT5+} & (GT_DT- or ĐT_DT- or DT_ĐT+ or DT_THI+ or DT_LA+ or LA_DT-)}))
 
-nhiều|ít|tân: [a] (({TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & (({TT_TT+} & {DT_TT- or SDT2- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+} & {STT+ or TT_SS+} & {THT- or THS+} & ({EV+} & {CL-} & {CO-})) or ST_DT-)
+nhiều|ít|tân: [adj] (({TTT1-} & {TTT2_1- or TTT2_2-} & {{TTT4-} & TTT3-} & {TTT4-}) or TTT5- or TT_TT-) & (({TT_TT+} & {DT_TT- or SDT2- or ĐT_TT- or THI_TT- or BI-} & {TT_ĐT+ or TT_GT+} & {STT+ or TT_SS+} & {THT- or THS+} & ({EV+} & {CL-} & {CO-})) or ST_DT-)
 
 xong: ĐT_XONG-
 
 của: SDT4- & GT_DT+
 
-nhất: TT_SS- & {NHAT_DT+}
+nhất: [adv] TT_SS- & {NHAT_DT+}
 
-không bao giờ|đâu phải|đâu có|không có|không phải|không|chẳng|chưa|chưa từng|bất tất|chả|chăng|chẳng thể|chửa|cóc|dễ thường|đâu|đếch|đếch phải|đố|đừng|hà cớ|hà tất|không dưng|không lẽ|không thể: {CHỨ2-} & (TĐT2_1+ or TTT2_1+ or TST2_1+ or (VTd- & VPd+) or (VTt- & VPt+) or (VTg- & VPg+) or (VTi- & VPi+) or (VTl- & VPl+))
+không bao giờ|đâu phải|đâu có|không có|không phải|không|chẳng|chưa|chưa từng|bất tất|chả|chăng|chẳng thể|chửa|cóc|dễ thường|đâu|đếch|đếch phải|đố|đừng|hà cớ|hà tất|không dưng|không lẽ|không thể: [adv] {CHỨ2-} & (TĐT2_1+ or TTT2_1+ or TST2_1+ or (VTd- & VPd+) or (VTt- & VPt+) or (VTg- & VPg+) or (VTi- & VPi+) or (VTl- & VPl+))
 
 nghĩa là|tức là|là: [v] (({TĐT1-} & {TĐT2_1-} & {TĐT3-} & {TĐT4-}) or TĐT5- or @TT_ĐT-) & {ĐT_LA- or DT_LA- or THI_ĐT- or VPl-} &  {LA_ĐT+ or LA_DT+ or LA_TT+ or ĐT_TT+} & {VTl+} & {@XH+}
 
@@ -87,9 +87,9 @@ nghĩa là|tức là|là: [v] (({TĐT1-} & {TĐT2_1-} & {TĐT3-} & {TĐT4-}) or 
 
 phải|dám|nỡ|nên|có thể|không thể|định: (({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & ĐT_ĐTi+ & {ĐT_LT+ or ĐT_SS+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})
 
-/words/prep.1.words: [prep] GT_DT+ & {VTi+ or (CC0- & CCTi+)} & (TT_GT- or ĐT_GT- or SDT4- or ({PH+} & CL+) or VPi- or CCPi-)
+/words/prep.1.words: [PREP] GT_DT+ & {VTi+ or (CC0- & CCTi+)} & (TT_GT- or ĐT_GT- or SDT4- or ({PH+} & CL+) or VPi- or CCPi-)
 
-mới|dù vậy|vậy mà|mà|thế mà|tuy nhiên|nhưng|là vì|là do|nhưng mà|nên|thì|cho nên|nhờ đó: CL+ & (EV- or QHT-)
+mới|dù vậy|vậy mà|mà|thế mà|tuy nhiên|nhưng|là vì|là do|nhưng mà|nên|thì|cho nên|nhờ đó: [C] CL+ & (EV- or QHT-)
 
 muốn|cần|thích|sợ|mong|mong chờ|tiếc|hối tiếc|sợ|lo lắng|nhớ|mơ|ước|quên|kiên nhẫn|giận: [v]((({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or @TT_ĐT- or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_DT+ or ĐT_ĐT+ or ĐT_TT+} & {SĐT+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-)
 
@@ -103,22 +103,22 @@ bị: (({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {TĐT3-} & {TĐT4-}) or TĐT5-) & {D
 
 chúng|tụi|bọn|các: TDT2p+
 
-những|các|mọi: TDT2+
+những|các|mọi: [L] TDT2+
 
 # TDT2m = các từ chỉ số lượng nhiều nhưng k phải tất cả (m = một số). Đôi khi các từ này khi dịch sang tiếng Anh cần thêm từ "of" ở đằng sau
-mỗi|bao|bầu|cơ man|dăm|dăm ba|dăm bảy|đa số|đôi|đôi chút|đôi mươi|đống|hàng loạt|khối|lô|lô lốc|lũ lĩ|lưng|mấy|một chút|một đôi|một ít|một số|một tẹo|một tí|một vài|mớ|muôn|muôn ngàn|muôn nghìn|muôn trùng|muôn vàn|mươi|năm ba|năm bảy|ngần|nghìn|nửa|nhúm|ôm|phân nửa|phần đông|phần lớn|nhiều|phần nhiều|số ít|tá|thiểu số|tổng lượng|trăm|trăm nghìn|vài|vạn|xí|xốc: TDT2m+
+mỗi|bao|bầu|cơ man|dăm|dăm ba|dăm bảy|đa số|đôi|đôi chút|đôi mươi|đống|hàng loạt|khối|lô|lô lốc|lũ lĩ|lưng|mấy|một chút|một đôi|một ít|một số|một tẹo|một tí|một vài|mớ|muôn|muôn ngàn|muôn nghìn|muôn trùng|muôn vàn|mươi|năm ba|năm bảy|ngần|nghìn|nửa|nhúm|ôm|phân nửa|phần đông|phần lớn|nhiều|phần nhiều|số ít|tá|thiểu số|tổng lượng|trăm|trăm nghìn|vài|vạn|xí|xốc: [L] TDT2m+
 
-NUMBERS|không|một|hai|ba|bốn|năm|sáu|bảy|bẩy|tám|chín|mười|trăm|nghìn|ngàn|triệu|tỉ|tỷ|nhất|nhì|nhị|tam|tứ|ngũ|lục|thất|bát|cửu|thập|bách|thiên|vạn|muôn|tư|băm|hăm|mốt|lăm|linh|mươi|vài|phần lớn: ST_ST- or ((({@TST2_1- or @TST2_2-} & {{TST4-} & @TST3-} & {@TST4-}) & {@TST-}) & {DT_ĐT- or ST_DT+} & {ST_ST+})
+NUMBERS|không|một|hai|ba|bốn|năm|sáu|bảy|bẩy|tám|chín|mười|trăm|nghìn|ngàn|triệu|tỉ|tỷ|nhất|nhì|nhị|tam|tứ|ngũ|lục|thất|bát|cửu|thập|bách|thiên|vạn|muôn|tư|băm|hăm|mốt|lăm|linh|mươi|vài|phần lớn: [NSt] ST_ST- or ((({@TST2_1- or @TST2_2-} & {{TST4-} & @TST3-} & {@TST4-}) & {@TST-}) & {DT_ĐT- or ST_DT+} & {ST_ST+})
 
 được: ((({TĐT1-} & {TĐT2_1- or TĐT2_2-} & {TĐT3-} & {TĐT4-}) or TĐT5-) & {DT_ĐT- or SDT5- or THI_ĐT- or LT_ĐT- or ĐT_ĐT-} & BI+ & {ĐT_LT+} & ({THT-} or {THS+} or ({EV+} & {CL-} & {CO-}))) or ĐT_XONG-
 
 khi nào|bao giờ: (THT+ or THS-) & {R-}
 
-/words/c.1.words: THT+ & {R-}
+/words/c.1.words: [C] THT+ & {R-}
 
 ra|vào|lên|xuống|theo|sang|biếu|hiến|hiến dâng|hoàn|tặng|tặng thưởng|thưởng|trả|trao|trao gửi|trao tặng|trợ cấp|trợ vốn: (GT_DT+ & (TT_GT- or ĐT_GT- or ({PH+} & CL+))) or (((({TĐT1-} & {TĐT2_1-} & {{TĐT4-} & TĐT3-} & {TĐT4-}) or {@TT_ĐT-} or ({@TT_ĐT-} & TĐT5-)) & {DT_ĐT- or ĐT_ĐT- or THI_ĐT- or LT_ĐT-} & {ĐT_XONG+} & {ĐT_DT+} & {ĐT_TT+} & {ĐT_GT+} & {ĐT_LT+} & {THT- or THS+} & ({EV+} & {SDT5- or CL-} & {CO-})) or ({DT_ĐT-} & BI-))
 
-/words/adj.2.words: [a] TĐT2_2+ or TTT2_2+ or TST2_2+
+/words/adj.2.words: [adv] TĐT2_2+ or TTT2_2+ or TST2_2+
 
 chuyện: (R- or GT_DT-) & (CL+ or DT_DT+)
 
@@ -149,7 +149,7 @@ bắt đầu|tiếp tục|thôi|dừng|kết thúc|dừng: [v] ((({TĐT1-} & {T�
 lẽ ra|có lẽ: CL+ or (DT_GT- & (GT_ĐT+ or GT_TT+))
 
 # quá khứ
-đã: TĐT3q+ or TTT3q+ or TST3q+
+đã: [adv] TĐT3q+ or TTT3q+ or TST3q+
 
 # hiện tại tiếp diễn
 đang|đương: TĐT3d+ or TTT3d+ or TST3d+
